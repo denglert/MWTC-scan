@@ -22,7 +22,7 @@ from collections import OrderedDict
 # Note: You need to edit this to correspond to the paths in your system!
 MG5_rootDir    = "/home/de3u14/lib/build/hep/MadGraph/MG5_aMC_v2_4_2"
 MG5_procDir    = "/scratch/de3u14/MWTC/samples/MWTC_pp_Zh_LO_MG5_242"
-MWT_Calculator = "/home/de3u14/lib/projects/MWTC/MWT_Calculator/MWT_Calculator"
+MWT_Calculator = "/home/de3u14/lib/projects/MWTC/MWT-scan/MWT_Calculator"
 
 sys.path.append(os.path.join(MG5_procDir,'bin','internal'))
 sys.path.append( MG5_rootDir )
@@ -78,7 +78,7 @@ gt_nBins = 9
 
 mA_min   =  300.0
 mA_max   = 2000.0
-mA_nBins = 28
+mA_nBins = 18
 
 #S_min  = 0.0
 #S_max  = 0.5
