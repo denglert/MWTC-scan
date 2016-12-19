@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # - Our input datafile
-dataFile = 'xsec_scan_interactive.dat'
+dataFile = 'xsec_scan.dat'
 print('Opening file {}.'.format(dataFile) )
 # - Load data into a python
 data = np.genfromtxt( dataFile, delimiter=None, skip_header=0, skip_footer=0, names=True )
